@@ -23,7 +23,7 @@ sum.addEventListener('click', addiction)
 function subtraction() {
     let a =parseFloat(num1.value)
     let b=parseFloat(num2.value)
-    if (isNaN(a)||(b)) {
+    if (isNaN(a)|| isNaN(b)) {
         alert("Não foi possível executar o cálculo ,  deves adicionar os números solicitados")
     } else {
         let result=a-b

@@ -20,7 +20,7 @@ sum.addEventListener('click', addiction);
 function subtraction() {
     var a = parseFloat(num1.value);
     var b = parseFloat(num2.value);
-    if (isNaN(a) || (b)) {
+    if (isNaN(a) || isNaN(b)) {
         alert("Não foi possível executar o cálculo ,  deves adicionar os números solicitados");
     }
     else {
